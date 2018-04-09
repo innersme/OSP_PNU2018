@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89457BEE207B10EA00C87742 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 89457BED207B10EA00C87742 /* main.c */; };
+		89457BF6207B14C300C87742 /* Add.c in Sources */ = {isa = PBXBuildFile; fileRef = 89457BF5207B14C300C87742 /* Add.c */; };
+		89457BF8207B15C300C87742 /* Minus.c in Sources */ = {isa = PBXBuildFile; fileRef = 89457BF7207B15C300C87742 /* Minus.c */; };
+		89457BFA207B15D200C87742 /* Multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 89457BF9207B15D200C87742 /* Multi.c */; };
+		89457BFC207B15E300C87742 /* Divide.c in Sources */ = {isa = PBXBuildFile; fileRef = 89457BFB207B15E300C87742 /* Divide.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		89457BEA207B10EA00C87742 /* OSP_PNU2018 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSP_PNU2018; sourceTree = BUILT_PRODUCTS_DIR; };
 		89457BED207B10EA00C87742 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		89457BF4207B115F00C87742 /* calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
+		89457BF5207B14C300C87742 /* Add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Add.c; sourceTree = "<group>"; };
+		89457BF7207B15C300C87742 /* Minus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Minus.c; sourceTree = "<group>"; };
+		89457BF9207B15D200C87742 /* Multi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Multi.c; sourceTree = "<group>"; };
+		89457BFB207B15E300C87742 /* Divide.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Divide.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				89457BED207B10EA00C87742 /* main.c */,
+				89457BF4207B115F00C87742 /* calculator.h */,
+				89457BF5207B14C300C87742 /* Add.c */,
+				89457BF7207B15C300C87742 /* Minus.c */,
+				89457BF9207B15D200C87742 /* Multi.c */,
+				89457BFB207B15E300C87742 /* Divide.c */,
 			);
 			path = OSP_PNU2018;
 			sourceTree = "<group>";
@@ -119,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89457BF8207B15C300C87742 /* Minus.c in Sources */,
 				89457BEE207B10EA00C87742 /* main.c in Sources */,
+				89457BF6207B14C300C87742 /* Add.c in Sources */,
+				89457BFA207B15D200C87742 /* Multi.c in Sources */,
+				89457BFC207B15E300C87742 /* Divide.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
