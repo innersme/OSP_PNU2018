@@ -36,7 +36,7 @@ int main()
             }
             case Exit:
             {
-                break;
+                return 0;
             }
             default:
             {
