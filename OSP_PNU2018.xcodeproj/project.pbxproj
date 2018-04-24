@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8935FE182086EB0C00BA71ED /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8935FE172086EB0C00BA71ED /* main.c */; };
-		8935FE1A2086EB7900BA71ED /* sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 8935FE192086EB7900BA71ED /* sum.c */; };
+		8994F50E208F26F9006B8DE4 /* Calculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994F508208F26F9006B8DE4 /* Calculator.c */; };
+		8994F50F208F26F9006B8DE4 /* Add.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994F509208F26F9006B8DE4 /* Add.c */; };
+		8994F510208F26F9006B8DE4 /* Divide.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994F50A208F26F9006B8DE4 /* Divide.c */; };
+		8994F511208F26F9006B8DE4 /* Multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994F50B208F26F9006B8DE4 /* Multi.c */; };
+		8994F512208F26F9006B8DE4 /* Minus.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994F50D208F26F9006B8DE4 /* Minus.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8935FE172086EB0C00BA71ED /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = CH4/main.c; sourceTree = "<group>"; };
-		8935FE192086EB7900BA71ED /* sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sum.c; path = CH4/sum.c; sourceTree = "<group>"; };
-		8935FE1D2086EC2700BA71ED /* sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sum.h; path = CH4/sum.h; sourceTree = "<group>"; };
 		89457BEA207B10EA00C87742 /* OSP_PNU2018 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSP_PNU2018; sourceTree = BUILT_PRODUCTS_DIR; };
+		8994F508208F26F9006B8DE4 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Calculator.c; path = HW3/Calculator.c; sourceTree = "<group>"; };
+		8994F509208F26F9006B8DE4 /* Add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Add.c; path = HW3/Add.c; sourceTree = "<group>"; };
+		8994F50A208F26F9006B8DE4 /* Divide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Divide.c; path = HW3/Divide.c; sourceTree = "<group>"; };
+		8994F50B208F26F9006B8DE4 /* Multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Multi.c; path = HW3/Multi.c; sourceTree = "<group>"; };
+		8994F50C208F26F9006B8DE4 /* calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = calculator.h; path = HW3/calculator.h; sourceTree = "<group>"; };
+		8994F50D208F26F9006B8DE4 /* Minus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Minus.c; path = HW3/Minus.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 		89457BEC207B10EA00C87742 /* OSP_PNU2018 */ = {
 			isa = PBXGroup;
 			children = (
-				8935FE172086EB0C00BA71ED /* main.c */,
-				8935FE192086EB7900BA71ED /* sum.c */,
-				8935FE1D2086EC2700BA71ED /* sum.h */,
+				8994F509208F26F9006B8DE4 /* Add.c */,
+				8994F508208F26F9006B8DE4 /* Calculator.c */,
+				8994F50C208F26F9006B8DE4 /* calculator.h */,
+				8994F50A208F26F9006B8DE4 /* Divide.c */,
+				8994F50D208F26F9006B8DE4 /* Minus.c */,
+				8994F50B208F26F9006B8DE4 /* Multi.c */,
 			);
 			path = OSP_PNU2018;
 			sourceTree = "<group>";
@@ -124,8 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8935FE182086EB0C00BA71ED /* main.c in Sources */,
-				8935FE1A2086EB7900BA71ED /* sum.c in Sources */,
+				8994F512208F26F9006B8DE4 /* Minus.c in Sources */,
+				8994F50E208F26F9006B8DE4 /* Calculator.c in Sources */,
+				8994F50F208F26F9006B8DE4 /* Add.c in Sources */,
+				8994F510208F26F9006B8DE4 /* Divide.c in Sources */,
+				8994F511208F26F9006B8DE4 /* Multi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
