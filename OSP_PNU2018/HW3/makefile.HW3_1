@@ -1,5 +1,3 @@
-OBJS = Add.o Minus.o Multi.o Divide.o Calculator.o
-
 all: main
 Add.o: Add.c
 	gcc -c Add.c
@@ -12,8 +10,8 @@ Divide.o: Divide.c
 Calculator.o: Calculator.c
 	gcc -c Calculator.c
 
-main: $(OBJS)
-	gcc -o main $(OBJS)
+main: Add.o Minus.o Multi.o Divide.o Calculator.o
+	gcc -o main Add.o Minus.o Multi.o Divide.o Calculator.o
 
 clean:
-	rm main $(OBJS)
+	rm main Add.o Minus.o Multi.o Divide.o Calculator.o
