@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calculator.h"
+#include "Calculator.h"
 
 enum{Add=1, Minus, Multi, Divide, Exit};
 
 int main(int argc, char** argv)
 {
     double val1, val2;
-    int select;
+    int select; char op;
+    int c;
     double result = 0.0;
-
+    
     if (argc < 4) {
         printf("!!!More arguments needed! ");
         return 0;
@@ -20,8 +21,8 @@ int main(int argc, char** argv)
     }
     else
     {
-        val1 = atoi(argv[1]);
-        val2 = atoi(argv[2]);
+        val1 = atof(argv[1]);
+        val2 = atof(argv[2]);
         select = atoi(argv[3]);
         
         //printf("%lf %lf %d", val1, val2, select );
@@ -29,21 +30,25 @@ int main(int argc, char** argv)
             case Add:
             {
                 result = Addfunc(val1, val2);
+                op = '+';
                 break;
             }
             case Minus:
             {
                 result = Minusfunc(val1, val2);
+                op = '-';
                 break;
             }
             case Multi:
             {
                 result = Multifunc(val1, val2);
+                op = '*';
                 break;
             }
             case Divide:
             {
                 result = Dividefunc(val1, val2);
+                op = '/';
                 break;
             }
             case Exit:
@@ -51,7 +56,7 @@ int main(int argc, char** argv)
                 return 0;
             }
         }
-        printf("Result value: %lf\n", result);
+        printf("%lf %c %lf = %lf\n", val1, op, val2, result);
         return 0;
     }
 }
