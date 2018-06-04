@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void pirnt_sum(int sum)
+void print_sum(int sum)
 {
 	printf("Total sum: %d\n", sum);
 }
